@@ -1,9 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
-    kotlin("plugin.compose")
     kotlin("kapt")
-    kotlin("plugin.serialization")
 }
 
 android {
