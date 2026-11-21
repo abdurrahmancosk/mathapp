@@ -1,0 +1,42 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+local.properties
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.sar
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+eggs/
+
+# IDE
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+bin/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store

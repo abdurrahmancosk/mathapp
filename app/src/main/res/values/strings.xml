@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matematik Öğren</string>
+    <string name="home">Anasayfa</string>
+    <string name="progress">İlerleme</string>
+    <string name="settings">Ayarlar</string>
+</resources>
