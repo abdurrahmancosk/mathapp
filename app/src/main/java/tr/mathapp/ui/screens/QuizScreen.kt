@@ -47,6 +47,7 @@ import androidx.compose.ui.unit.sp
 import tr.mathapp.model.BuildQuestion
 import tr.mathapp.model.ChoiceQuestion
 import tr.mathapp.model.Question
+import tr.mathapp.model.parseClockVisual
 import tr.mathapp.ui.AppViewModel
 import tr.mathapp.ui.Correct
 import tr.mathapp.ui.CorrectBg
@@ -143,8 +144,9 @@ private fun QuestionCard(q: Question) {
             )
             q.visual?.let { v ->
                 Spacer(Modifier.height(14.dp))
+                val clock = parseClockVisual(v)
                 val table = v.contains(':')
-                Text(
+                if (clock != null) ClockFace(clock.first, clock.second) else Text(
                     v,
                     fontSize = when {
                         v.length <= 4 -> 64.sp

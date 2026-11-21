@@ -14,18 +14,20 @@ APK ayrıca her derlemede **Actions → son çalıştırma → Artifacts** böl�
 
 10 konu × 6 Bloom basamağı = **60 etkinlik**. Sorular her seferinde rastgele üretildiği için etkinlikler tekrar tekrar oynanabilir.
 
-| Konu | Kapsam |
-|---|---|
-| 🔢 Sayılar | 100'e kadar sayılar, okuma, basamak değeri, ritmik sayma, tek-çift |
-| ➕ Toplama | 100'e kadar eldeli/eldesiz toplama, eksik toplanan |
-| ➖ Çıkarma | 100'e kadar onluk bozarak/bozmadan çıkarma, eksik eksilen |
-| ✖️ Çarpma | Tekrarlı toplama, eşit gruplar, çarpma |
-| ➗ Bölme | Eşit paylaştırma, gruplama, çarpma-bölme ilişkisi |
-| 🍕 Kesirler | Bütün, yarım, çeyrek |
-| 🔺 Geometri | Üçgen, kare, dikdörtgen, daire; küp, küre, silindir, koni |
-| 📏 Ölçme | Metre-santimetre, saat (tam/yarım), paralarımız |
-| 📊 Veri | Nesne grafiği okuma, yorumlama ve oluşturma |
-| 🔁 Örüntüler | Şekil ve sayı örüntüleri |
+| Konu | Kapsam | TYMM çıktıları |
+|---|---|---|
+| 🔢 Sayılar | 100'e kadar sayılar, basamak değeri, sıralama, sayı doğrusu, yuvarlama, ileri-geri ritmik sayma, tahmin | MAT.2.1.1–2.1.4, 2.1.6 |
+| ➕ Toplama | Eldeli/eldesiz toplama, 3 sayı ile toplama, deste-düzine, tahmin, eşitlik | MAT.2.2.1–2.2.3, 2.2.6 |
+| ➖ Çıkarma | Onluk bozarak/bozmadan çıkarma, iki işlemli problemler, tahmin, toplamayla ilişkisi | MAT.2.2.1–2.2.3 |
+| ✖️ Çarpma | Tekrarlı toplama, 5'e kadar çarpım tablosu, 0 ve 1 ile çarpma | MAT.2.2.4–2.2.6 |
+| ➗ Bölme | 20'ye kadar sayıları 2–5'e kalansız bölme, ardışık çıkarma | MAT.2.2.4, 2.2.5 |
+| 🍕 Kesirler | Bütün, yarım, çeyrek (kesir gösterimi olmadan) | MAT.2.1.7 |
+| 🔺 Geometri | Şekiller; küp, prizmalar, küre, silindir; biçimin korunması, sıvı tahmini, yön bulma, simetri | MAT.2.3.1, 2.3.3–2.3.7 |
+| 📏 Ölçme | TL ve kuruş; tam/yarım/çeyrek saat; zaman birimleri; m, cm, kg, g | MAT.2.1.8–2.1.11 |
+| 📊 Veri | Şekil grafiği, sıklık tablosu, iki veri grubu, araştırma sorusu | MAT.2.4.1 |
+| 🔁 Örüntüler | Tekrarlayan, artan-azalan sayı örüntüleri, sayıya dönüşen şekil örüntüleri | MAT.2.1.4, 2.1.5 |
+
+Çıktı çıktı karşılaştırma: [docs/TYMM_UYUM.md](docs/TYMM_UYUM.md)
 
 | Bloom basamağı | Etkinlik türü |
 |---|---|

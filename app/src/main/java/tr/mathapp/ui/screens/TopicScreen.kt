@@ -51,6 +51,7 @@ fun TopicScreen(vm: AppViewModel, topic: Topic) {
         ) {
             item {
                 Text(topic.summary, color = Muted)
+                Text("TYMM öğrenme çıktıları: ${topic.outcomes}", fontSize = 12.sp, color = Muted)
                 Text(
                     "Basamakları sırayla çık! Bir basamaktan en az 1 yıldız (5 sorudan 3 doğru) alınca sonraki basamak açılır.",
                     fontSize = 13.sp, color = Muted, modifier = Modifier.padding(top = 4.dp, bottom = 4.dp),

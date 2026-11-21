@@ -43,3 +43,14 @@ fun Question.signature(): String = when (this) {
     is ChoiceQuestion -> "$prompt|$visual|${options.sorted()}"
     is BuildQuestion -> "$prompt|$visual"
 }
+
+private const val CLOCK = "clock:"
+
+/** A visual that the UI draws as an analog clock instead of showing as text. */
+fun clockVisual(hour: Int, minute: Int) = "$CLOCK$hour:$minute"
+
+fun parseClockVisual(visual: String): Pair<Int, Int>? {
+    if (!visual.startsWith(CLOCK)) return null
+    val (h, m) = visual.removePrefix(CLOCK).split(":").map { it.toInt() }
+    return h to m
+}

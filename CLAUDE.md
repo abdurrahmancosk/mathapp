@@ -21,6 +21,7 @@
 
 ## Kurallar
 
+- İçerik TYMM 2. sınıf programının sınırlarına uymalı (ayrıntı: `docs/TYMM_UYUM.md`): gösterilen sayılar en çok 100; çarpma 10'a kadar sayıların 1–5 ile çarpımı; bölme 20'ye kadar sayıların 2–5'e kalansız bölümü; tek-çift sayı (3. sınıf) ve koni yok. `staysWithinGradeTwoProgramme` testi bunları denetler.
 - Türkçe ekler sayılara bağlı değişir ("3'ten", "4'e"); sayıya ek getiren cümle kurmaktan kaçının ya da sabit sayılarla yazın.
 - Yeni emoji eklerken Android 8 desteğini düşünün; çok yeni emojiler eski cihazlarda kutu olarak görünebilir.
 - CI (`.github/workflows/build.yml`) testleri çalıştırır, APK'yı Artifacts'a ve `latest` sürümüne yükler.
