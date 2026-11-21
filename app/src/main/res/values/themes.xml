@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ic_launcher_background">#5C6BC0</color>
     <style name="Theme.MathApp" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
     </style>
 </resources>
