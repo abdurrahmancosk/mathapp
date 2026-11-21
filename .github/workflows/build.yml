@@ -33,20 +33,20 @@ jobs:
       run: ./gradlew assembleRelease
 
     - name: Upload Debug APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mathapp-debug
         path: app/build/outputs/apk/debug/
 
     - name: Upload Release APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mathapp-release
         path: app/build/outputs/apk/release/
 
     - name: Upload Build Reports
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-reports
         path: app/build/reports/
